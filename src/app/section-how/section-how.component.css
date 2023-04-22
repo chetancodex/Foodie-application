@@ -1,0 +1,62 @@
+/* How section works */
+/* How section works */
+/* How section works */
+.section-how{
+    padding:9.6rem 0;
+    background-color: #ffffff;
+    /* max-height: 100vh; */
+}
+.sub-container{
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+.step-number{
+    font-size: 8.6rem;
+    font-weight: 600;
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+.step-text{
+    font-size: 1.6rem;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+}
+.step-img-box{
+    z-index: 8;
+    position: relative;
+    display:flex;
+    justify-content: center;
+}
+
+.step-img-box::before,.step-img-box::after{
+    position: absolute;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0,0.080);
+    content:"";
+    display:block;
+    border-radius: 50%;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+.step-img-box::before{
+    z-index: -1;
+    background-color: #f8d8bdea;
+    width:60%;
+    padding-bottom: 55%;
+}
+.step-img-box::after{
+    z-index: -1;
+    background-color: #eea464e8;
+    width:45%;
+    padding-bottom: 45%;
+}
+.step-img{
+    width:35%;
+}
+.step-img:hover{
+    transform: translateX(2rem);
+    width:35%;
+}

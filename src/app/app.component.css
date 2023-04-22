@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size:62.5%;
+    /* overflow:auto; */
+}
+body{
+    font-family: sans-serif;
+    /* overflow-x: hidden; */
+}
+strong{
+    font-weight: 900;
+}
+
+
+.sticky{
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    top:0;
+    bottom:0;
+    height: 7rem;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.045);
+}
+
+
+
+.mobile-icon{
+ color:#333;
+ width:4.8rem;
+ height: 4.8rem;
+}
+.mobile-icon[name="close-outline"]{
+        display:none;
+}
+
+/* header section close */
+
+
+
+/* /* These are all helper classes */
+/* /* These are all helper classes */
+/* /* These are all helper classes */
+
+/* Font -Sizes(px)
+10/ 12/ 14/ 16/ 18/ 20/ 24/ 30/ 36/ 44/ 52/ 62/ 74/ 86/ 98 */
+
+/* Spacing System px
+2/ 4/ 8/ 12/ 16/ 24/ 32/ 48/ 64/ 96/ 128*/
+
+*:focus{
+    outline:none;
+    box-shadow: 0 0 0 0.8rem rgba(230, 126, 34, 0.5) ;
+}
+.container{
+    max-width: 130rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+    /* max-height: 100vh; */
+}
+.grid{
+    display:grid;
+    gap:7.2rem; 
+}
+
+.grid-2cols{
+    grid-template-columns: repeat(2,1fr);
+}
+.grid-3cols{
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+    /* overflow: hidden; */
+}
+.grid-4cols{
+    grid-template-columns: repeat(4,1fr);
+}
+.grid-5cols{
+    grid-template-columns: 27fr 25fr 16fr 16fr 16fr;
+}
+.margin-right{
+    margin-right: 2.5rem;
+}
+.grid-center{
+    align-items: center;
+}
+.center{
+    text-align: center;
+}
+.margin-bottom{
+    margin-bottom: 6.4rem;
+}
+.heading-tertiary{
+    font-size: 2.6rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 1000;
+    margin-bottom: 3rem;
+}
+.primary-heading{
+    display: block;
+    margin-bottom: 1.6rem;
+    color:#e67e22;
+    letter-spacing: 0.3rem;
+    font-weight: 800;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+.secondary-heading{
+    font-size:4.2rem;
+    margin-bottom: 9.6rem;
+    line-height: 1.6;
+    font-weight: 1000;
+    letter-spacing: 0.1rem;   
+}

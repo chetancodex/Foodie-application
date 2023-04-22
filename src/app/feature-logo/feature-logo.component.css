@@ -1,0 +1,28 @@
+/* Featured Section*/
+/* Featured Section*/
+/* Featured Section*/
+.feature-logo-box{
+    margin-top: 2rem;
+}
+
+
+.feature-logo-heading{
+    text-align:center !important;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.1rem;
+    font-weight: 600;
+    color:#888 !important;
+    margin-bottom: 2.4rem;
+}
+.logos{
+      display:flex;
+      justify-content: space-around;
+}
+.logos img{
+    height:2.5rem;
+    padding: 0 2rem;
+    filter: brightness(0);
+    opacity: 50%;
+}

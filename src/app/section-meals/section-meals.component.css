@@ -1,0 +1,114 @@
+/*Meals Section*/
+.meals{
+    padding:9.6rem 0;
+    background-color: #ffffff;
+    /* max-height: 100vh; */
+}
+.Meals-box{
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0,0.080);
+    border-radius: 1rem;
+    height:55rem;
+}
+.Meals-box:hover{
+    transform:translatey(-2.5rem);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0,0.050)
+}
+.meal-content{
+    padding: 2rem;
+}
+.meal-img{
+    width:100%;
+    border-radius: 10px 10px 0 0;
+}
+.tag{
+    display:inline-block;
+    text-transform: uppercase;
+    padding: 0.4rem  0.8rem;
+    color:#222222e7;
+    font-size: 1.2rem;
+    font-weight: 1000;
+    border-radius: 60px;
+}
+.tag-1{background-color:rgba(153, 255, 0, 0.945);}
+.tag-2{background-color:#94d82d;}
+.tag-3{background-color:#ffd43b;}
+
+
+.meal-title{
+    font-size:2.4rem;
+    color:#363636;
+    font-weight: 600;
+    margin: 1.5rem 0rem 2.5rem 1.5rem;
+    padding: 0 1.2rem;
+}
+.meal-data{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2.5rem;
+    color:#333;
+    font-weight: 500;
+    list-style: none;
+    font-size: 1.6rem;
+}
+.meal-list{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+.meal-text{
+    width:20rem;
+    height:1.2rem;
+    font-weight:550;
+    letter-spacing: 0.1rem;
+    color: #555;
+}
+.meals-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #e67e22;
+}
+/* Work on Diet section*/
+.work-meal{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.list-icons{
+    width:3.5rem;
+    height:3.5rem;
+    color:#e67e22;
+    margin:0rem 3rem 0rem 2rem;
+}
+.ingredients{
+    margin:0.8rem 0rem;
+    display:inline-flex;
+    align-items: center;
+    list-style: none;
+}
+.meal-list-text{
+    font-size:1.6rem;
+    font-weight: 500;
+    color: #363636;
+}
+.related{
+    align-items: center;
+}
+.search-link{
+    text-transform: uppercase;
+    color:#e67e22;
+    font-weight: 600;
+    font-size:1.6rem;
+    text-decoration: none;
+    padding: 2px;
+    border-bottom: 1px solid currentColor;
+}
+.search-link:hover{
+    border-bottom: 1px solid transparent;
+}
+.search-link-arrow{
+    color:#e67e22;
+    width: 1.5rem;
+    height: 1.5rem;
+}
